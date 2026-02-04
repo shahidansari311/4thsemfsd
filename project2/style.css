@@ -1,0 +1,17 @@
+body{
+  font-family: 'Poppins', sans-serif;
+  background: url("back.jpg") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.input{
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.15);
+  padding: 14px 18px;
+  border-radius: 12px;
+  outline: none;
+  color: white;
+}
+.input::placeholder{
+  color: #ffffff;
+}
