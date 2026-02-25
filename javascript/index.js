@@ -16,3 +16,5 @@ for(let i=0;i*i<=num;i++){
     } 
 }
 console.log("Prime number");
+
+
