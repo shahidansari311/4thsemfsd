@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    padding: 32px 16px;
+    box-sizing: border-box;
+}
+
+.main {
+    width: min(920px, 100%);
+    margin: 0 auto;
+    padding: 0 30px 30px;
+    background: #ffffff;
+    border: 1px solid #d7e0ea;
+    border-radius: 14px;
+    box-shadow: 0 10px 30px rgba(31, 41, 55, 0.1);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 92px;
+    margin: 0 -30px 28px;
+    padding: 18px 24px;
+    color: #ffffff;
+    background: linear-gradient(135deg, #00004f, #02278c);
+    border-radius: 14px 14px 0 0;
+    font-size: clamp(1.35rem, 3vw, 2rem);
+    font-weight: 700;
+    text-align: center;
+}
+ 
+h1{
+    font-size: 30px;
+}
+
+p{
+    font-size: large;
+}
+.title{
+    background:linear-gradient(135deg, #00009c, #0335bd);;
+    border-radius: 9px;
+}
+.title div{
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+    padding: 10px;
+}
+
+/* adm-form{
+    margin-top: 20px;
+    padding: 20px 20px;
+}
+
+.content {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(220px, 1fr));
+    gap: 18px 22px;
+    align-items: start;
+}
+
+.content label{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 0.98rem;
+    font-weight: 600;
+    color: #1f2937;
+}
+
+.content input{
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #c9d5e3;
+    border-radius: 8px;
+    background: #f9fbff;
+    color: #1f2937;
+    font: inherit;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.op{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.op div{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+} */
+
+
+.adm-form {
+    width: min(900px, 92%);
+    margin: 30px auto;
+}
+
+.adm-form table {
+    width: 100%;
+}
+
+.adm-form th,
+.adm-form td {
+    width: 50%;
+    padding: 10px 14px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.adm-form th {
+    padding-bottom: 4px;
+}
+
+.adm-form input[type="text"],
+.adm-form input[type="date"],
+.adm-form input[type="email"],
+.adm-form input[type="tel"] {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 9px 10px;
+}
+
+.adm-form input[type="radio"] {
+    margin-left: 0;
+}
+
+.adm-form td label {
+    margin-right: 12px;
+}
