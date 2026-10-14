@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* .box {
+            height: 200px;
+        }
+
+        @media screen and (min-width: 600px) {
+            .box {
+                width: 100%;
+                background: lightcoral;
+            }
+        }
+
+        @media screen and (max-width:992px) {
+            .box {
+                width: 100%;
+                background: rgb(227, 240, 128);
+            }
+        } */
+
+        .main{
+            margin: 0;
+        }
+        .header{
+            height: 150px;
+            background-color: blue;
+            width: 100%;
+        }
+        .middle{
+            display: flex;
+        }
+        .left{
+            height: 150px;
+            background-color: blueviolet;
+            width: 33%;
+        }
+        .right{
+            height: 150px;
+            background-color: rgb(43, 226, 137);
+            width: 33%;
+        }
+        .center{
+            height: 150px;
+            background-color: rgb(226, 43, 226);
+            width: 33%;
+        }
+        .footer{
+            height: 150px;
+            width: 100%;
+            background-color: brown;
+        }
+        @media screen and (max-width:992px) {
+            .middle{
+                display: flex;
+                flex-direction: column;
+            }
+            .left{
+                width: 100%;
+            }
+            .right{
+                width: 100%;
+            }
+            .center{
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <div class="box"></div> -->
+    <div class="main">
+        <div class="header"></div>
+        <div class="middle">
+            <div class="left"></div>
+            <div class="center"></div>
+            <div class="right"></div>
+        </div>
+        <div class="footer"></div>
+    </div>
+</body>
+
+</html>

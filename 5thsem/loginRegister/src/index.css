@@ -1,0 +1,29 @@
+.login-card {
+    width: 100%;
+    max-width: 420px;
+    border-radius: 12px;
+}
+
+.login-card .form-control {
+    padding: 10px 12px;
+}
+
+.login-card .btn {
+    padding: 10px;
+    font-weight: 500;
+}
+
+.login-card {
+    width: 100%;
+    max-width: 420px;
+    border-radius: 12px;
+}
+
+.login-card .form-control {
+    padding: 10px 12px;
+}
+
+.login-card .btn {
+    padding: 10px;
+    font-weight: 500;
+}
